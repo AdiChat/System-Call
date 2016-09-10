@@ -5,9 +5,9 @@ require 'action_view'
 
 class System_Call
 
-	def  generate_list()
+	def  generate_list(path = 'E:/System Calls in UNIX.txt')
 
-		$stdout = File.new('E:/System Calls in UNIX.txt', 'a')
+		$stdout = File.new(path, 'a')
 		$stdout.sync = true
 		addr = "http://linasm.sourceforge.net/docs/syscalls"
 		new_page = Nokogiri::HTML(open("http://linasm.sourceforge.net/docs/syscalls/index.php"))
