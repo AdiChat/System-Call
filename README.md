@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/license-CC0--1.0-orange.svg)](https://img.shields.io/badge/license-CC0--1.0-orange.svg)
 ![alt text](https://img.shields.io/badge/system_call-good-green.svg " Running fun")
 
-This is a <strong>web scraper</strong> (along with a gem) for scraping data from [linasm.sourceforge.net](linasm.sourceforge.net) and generate an extensive list of system calls on the fly. The list of system calls are present in the url: [here](linasm.sourceforge.net/docs/syscalls/index.php)
+This is a <strong>web scraper</strong> (along with a gem) for scraping data from [linasm.sourceforge.net](http://linasm.sourceforge.net/) and generate an extensive list of system calls on the fly. The list of system calls are present in the url: [here](http://linasm.sourceforge.net/docs/syscalls/index.php)
 <br><br>
 This is a <strong>gem</strong> for generating a list of <strong>system calls</strong> in UNIX based systems.<br>
 Find the gem [here](https://rubygems.org/gems/system_call).
